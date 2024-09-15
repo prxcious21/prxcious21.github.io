@@ -128,10 +128,6 @@ aside {
     border-radius: 50px;
     margin: 20px 0px 0px 115px;
     box-shadow: 6px 6px 8px 1px rgba(135, 75, 1, 0.781);
-    width: 200px;  /* You can adjust this to make the sidebar smaller or larger */
-    min-width: 150px; /* Ensures it doesn’t get too small on very narrow screens */
-    flex-shrink: 0; /* Ensures the sidebar doesn't shrink in a flex layout */
-    position: relative; /* Allows for future positioning adjustments */
 }
 
 
