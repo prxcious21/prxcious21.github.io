@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(255, 243, 224);
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.2vw;
+}
+
+#logo {
+    margin: 0px 300px 0px 5px;
+    padding: 0px 0px 0px 25px;
+    font-family: "Fredoka One", sans-serif;
+    letter-spacing: 3px;
+    width: 16%;
+    height: 55px;
+    border-radius: 50px;
+    box-shadow: 8px 8px 10px 3px rgb(135, 75, 1);
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left shadow */
+    1px -1px 0 black, /* Top-right shadow */
+    -1px  1px 0 black, /* Bottom-left shadow */
+    1px  1px 0 black; /* Bottom-right shadow */
+    }
+    
+
+ul {margin: 0px;}
+
+body > header {
+    background-color: rgba(191, 115, 23, 0.764);
+    display: flex;
+    color: white;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 15px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    margin: 10px;
+}
+
+body > footer {
+    background-color: rgba(191, 115, 23, 0.764);
+    display: flex;
+    height: 280px;
+    align-items: center;
+}
+
+body > footer > h2 {
+    color: #ffffff;
+    margin: 0px 0px 0px 50px;
+    font-family: "Fredoka One", sans-serif;
+    letter-spacing: 3px;
+text-shadow: 
+    -1px -1px 0 black, /* Top-left shadow */
+    1px -1px 0 black, /* Top-right shadow */
+    -1px  1px 0 black, /* Bottom-left shadow */
+    1px  1px 0 black; /* Bottom-right shadow */
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-ul > div > li {
+    margin: 15px 0px 0px 100px;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+
+}
+
+aside {
+    background-color: rgba(191, 115, 23, 0.764);
+    height: fit-content;
+    padding: 0px 55px 30px 55px;
+    border-radius: 50px;
+    margin: 20px 0px 0px 115px;
+    box-shadow: 6px 6px 8px 1px rgba(135, 75, 1, 0.781);
+}
+
+
+aside nav ul {
+    list-style-type: none; 
+    padding: 0px;
+}
+
+aside nav ul li {
+    margin: 0px 0px 10px 0px;
+    display: block;  
+    padding: 10px 20px;  
+    color: #333;  
+    text-decoration: none;  
+    border-radius: 30px;  
+    border: 1px solid white; 
+}
+
+aside h4 {
+    color: #ffffff;
+}
+
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: thin
+}
