@@ -1,36 +1,57 @@
 body {
-    background-color: rgb(255, 243, 224);
+    background-color: rgb(167, 187, 194);
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
     font-size: 1.2vw;
+    font-family: serif;
 }
 
 #logo {
-    margin: 0px 300px 0px 5px;
+    margin: 0px 0px 0px 145px;
     padding: 0px 0px 0px 25px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: Impact, sans-serif;
+    color: #ffffff;
     letter-spacing: 3px;
-    width: 16%;
+    width: 19%;
     height: 55px;
-    border-radius: 50px;
-    box-shadow: 8px 8px 10px 3px rgb(135, 75, 1);
-    text-shadow: 
-    -1px -1px 0 black, /* Top-left shadow */
-    1px -1px 0 black, /* Top-right shadow */
-    -1px  1px 0 black, /* Bottom-left shadow */
-    1px  1px 0 black; /* Bottom-right shadow */
+    font-size: 50px;
     }
     
 
 ul {margin: 0px;}
 
 body > header {
-    background-color: rgba(191, 115, 23, 0.764);
+    background-color: black;
     display: flex;
     color: white;
     height: 15vh;
     align-items: center;
     justify-content: space-around;
+}
+ 
+.header-container h2, .header-container h3 {
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+  }
+
+.header-container h3 {
+    margin-top: 5px; /* Adds a small gap between h2 and h3 */
+    font-family: impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight: initial;
+  }
+
+.header-container h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333; /* Color of the line */
+    margin: 20px 0; /* Space above and below the line */
 }
 
 #nav-ul {
@@ -38,7 +59,7 @@ body > header {
 }
 
 #nav-ul > li {
-    padding: 15px;
+    padding: 20px;
 }
 
 body > header > nav > ul {
@@ -51,22 +72,24 @@ body > header > nav > ul {
     color: white;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 25px;
+    display: block;
+    border-bottom: 1px solid white;
 }
 
 body > main article {
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    margin: 40px 0px 0px 80px;
 }
 
 #main-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    width:fit-content;
 }
 
 #main-content > div {
-    width: 70%;
+    width: 100%;
+    margin: 0px 130px 0px 40px;
 }
 
 form {
@@ -82,17 +105,28 @@ img {
     margin: 10px;
 }
 
+img {
+    border: 5px solid #000000; /* Black solid border, adjust size and color */
+    padding: 5px; /* Optional: Adds space between the image and border */
+    border-radius: 10px; /* Optional: Rounds the corners of the border */
+}
+
 body > footer {
-    background-color: rgba(191, 115, 23, 0.764);
+    background-color: #000000;
     display: flex;
     height: 280px;
     align-items: center;
 }
 
+body > footer > a {
+    color: white;
+    text-decoration: none;
+}
+
 body > footer > h2 {
     color: #ffffff;
     margin: 0px 0px 0px 50px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: impact, "Fredoka One", sans-serif;
     letter-spacing: 3px;
 text-shadow: 
     -1px -1px 0 black, /* Top-left shadow */
@@ -122,37 +156,42 @@ text-shadow:
 }
 
 aside {
-    background-color: rgba(191, 115, 23, 0.764);
+    background-color: black;
     height: fit-content;
-    padding: 0px 55px 30px 55px;
+    padding: 0px 40px 30px 40px;
     border-radius: 50px;
-    margin: 20px 0px 0px 115px;
-    box-shadow: 6px 6px 8px 1px rgba(135, 75, 1, 0.781);
+    margin: 30px 0px 0px 20px;
+    box-shadow: 6px 6px 8px 1px rgb(0, 32, 44);
 }
 
 
 aside nav ul {
     list-style-type: none; 
-    padding: 0px;
+    padding: 5px;
 }
 
 aside nav ul li {
     margin: 0px 0px 10px 0px;
     display: block;  
-    padding: 10px 20px;  
+    padding: 5px 15px;  
     color: #333;  
-    text-decoration: none;  
-    border-radius: 30px;  
-    border: 1px solid white; 
+    text-decoration: none; 
+    font-size: medium; 
+    display: block; /* Keep links inline */
+    border-left: 1px solid white; /* Vertical divider */ 
+
 }
 
 aside h4 {
     color: #ffffff;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bolder;
 }
 
 
 aside nav ul li a {
     text-decoration: none;
     color: #ffffff; 
-    font-weight: thin
+    font-weight: initial
 }
